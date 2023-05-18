@@ -22,9 +22,9 @@ Install the development libraries of the dependencies.
 
 #### Archlinux
 
-Archlinux doesn't have developmental packages. All headers and libs are packaged together. So just need to install `nethogs`
+Archlinux doesn't have developmental packages. All headers and libs are packaged together.
 ```
-paru -S nethogs-git
+paru -S netswine-git
 ```
 
 #### Other distros
