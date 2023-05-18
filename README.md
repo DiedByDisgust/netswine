@@ -53,6 +53,15 @@ just
 sudo make install
 ```
 
+#### Use
+
+`netswined` is supposed to run as a daemon, so `enable` and `start` it.
+```
+systemctl enable netswined.service
+systemctl start netswined.service
+```
+now you can run `netswine` and read data usage statistics.
+
 ## Licence
 
 Copyright 2023 Sergio Cabrera Falcon sergio.cabrerafalcon@gmail.com 
