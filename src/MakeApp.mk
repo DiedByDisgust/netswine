@@ -21,6 +21,7 @@ uninstall:
 
 install:
 	install -d -m 755 $(DESTDIR)$(bin)
+	install -d -m 755 $(DESTDIR)/etc/systemd/system
 	install -m 755 netswine $(DESTDIR)$(bin)
 	install -m 755 netswined $(DESTDIR)$(bin)
 	install -m 644 netswined.service $(DESTDIR)/etc/systemd/system
