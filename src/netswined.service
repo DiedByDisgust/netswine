@@ -1,0 +1,12 @@
+[Unit]
+Description=registering the data usage
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/netswined
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
